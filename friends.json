@@ -1,0 +1,37 @@
+
+{
+ "allfriends": [
+    {
+	   "id": 1,
+      "firstname": "test",
+      "lastname": "test",
+      "age": 24,
+      
+      "email": "test@test.com",
+      "address": "test",
+      
+      
+      "pincode": 560058,
+      "pref": "Male Trainer",
+      "pack":500
+      
+      
+    },
+    {
+	   "id": 2,
+      "firstname": "testone",
+      "lastname": "testtwo",
+      "age": 24,
+      
+      "email": "testww@test.com",
+      "address": "testww",
+      
+      
+      "pincode": 560058,
+      "pref": "Male Trainerww",
+      "pack":1000
+      
+      
+    }
+	]
+	}

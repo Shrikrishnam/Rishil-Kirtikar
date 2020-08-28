@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="split left"><img src="../../../Logo.jpg" alt="LOGO"></div>
+  <div class="split right"><h3>Fitness Tracker App</h3></div>
+</div>
+<br />
+<div class="container">
+  <nav class="NavBar">
+    <button routerLink="/landing-page" class="NavButton">Home</button>
+    <button routerLink="/place-fitness-trainer-appointment" class="NavButton">
+      Place Appointment
+    </button>
+    <button routerLink="/view-appointment" class="NavButton">
+      View Appointment
+    </button>
+    <button routerLink="/contact-us" class="NavButton">Contact Us</button>
+  </nav>
+
+  <div class="sidenav">
+    <button routerLink="/landing-page">Home</button><br />
+    <button routerLink="/place-fitness-trainer-appointment">
+      Place Appointment</button
+    ><br />
+    <button routerLink="/view-appointment">View Appointment</button><br />
+    <button routerLink="/contact-us">Contact Us</button><br />
+    <!--<button (click)="perform()">Perform</button> -->
+  </div>
+
+  <!--<div class="sidebar">
+  <button (click)="landingpage()">Home</button><br />
+  <button (click)="placeAppointment()">Place Appointment</button><br />
+  <button (click)="viewAppointment()">View Appointment</button><br />
+  <button (click)="contactUspage()">Contact Us</button> 
+
+  <button>Home</button><br />
+  <button>Place Appointment</button><br />
+  <button>View Appointment</button><br />
+  <button>Contact Us</button><br />
+  <button (click)="perform()">Perform</button>
+</div> -->
+  <div class="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>
